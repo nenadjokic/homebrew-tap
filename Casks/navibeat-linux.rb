@@ -7,9 +7,9 @@
 cask "navibeat-linux" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.0.66"
-  sha256 arm64_linux:  "9b4e36b741a4b3bf837d8dceeef4031c6b72bed258c8abc62b971eaaae760bf1",
-         x86_64_linux: "80295cf4fa4d09289f0901fd49e0fdc598827344f762a751cfca7006b1e06951"
+  version "1.0.67"
+  sha256 arm64_linux:  "1606ae5a138687439f197123c29d7bebddc73e93ecbbbceb818b8d6b9af355aa",
+         x86_64_linux: "a9ffb04ef51496188c94ee0f6b15eab2d2dde6e26b4d5003bef3e3adcf901a0d"
 
   # Why the full image and not the `-slim` one beside it: slim leaves out the
   # bundled libVLC and plays through the system's, which Homebrew cannot supply
